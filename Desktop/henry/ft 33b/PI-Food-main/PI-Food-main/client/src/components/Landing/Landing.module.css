@@ -1,0 +1,33 @@
+
+.landing { 
+	background: url("./../../image/bg_landing3.jpg") !important;
+	background-size: cover !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	}
+
+.landing .container {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    height: 100%;
+    padding: 0 13%;
+}
+.landing .container p {
+	font-family: "Varela Round", sans-serif !important;
+	font-size: 1.5em;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: rgb(8, 8, 8);
+	font-weight: medium;
+	gap: 1em;
+}
+
